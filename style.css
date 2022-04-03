@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Quintessential&family=Roboto:ital@1&family=Supermercado+One&family=Ubuntu:wght@300&display=swap');
+/* font-family: 'Comfortaa', cursive;
+font-family: 'Quintessential', cursive;
+font-family: 'Roboto', sans-serif;
+font-family: 'Supermercado One', cursive;
+font-family: 'Ubuntu', sans-serif; */
+body{
+    background-color: rgb(255, 197, 197);
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Quintessential', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Supermercado One', cursive;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Quintessential', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Supermercado One', cursive;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+}
+
+nav ul
+{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+}
+
+nav ul li
+{
+    padding: 0px 10px;
+}
+
+.brand img
+{
+    width: 45px; 
+    padding: 0 10px;  
+}
+
+.brand
+{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem; 
+}
+
+.container
+{
+    min-height: 70vh;
+    background-color: black;
+    color: white;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Quintessential', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Supermercado One', cursive;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    margin: 20px auto;
+    width: 70%;
+    border-radius: 10px;
+    padding: 5px;
+    background-image: url('bg.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    Display: block;
+}
+
+.bottom
+{
+    position: sticky;
+    background-color: black;
+    color: white;
+    height: 100px; 
+    bottom: 0; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icons
+{
+    margin-top: 14px; 
+}
+
+.icons i 
+{
+    cursor: pointer;
+}
+
+#myProgressBar
+{
+    width: 50vw;
+    cursor: pointer;
+}
+
+.songItem
+{
+    height: 50px;
+    display: flex;
+    background-color: white;
+    color: black;
+    width: 50%;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+}
+
+.songItem img
+{
+    width: 43px; 
+    margin: 0 23px;
+    border-radius: 34px;
+}
+
+.timestamp
+{
+    margin: 0 23px;
+}
+
+.timestamp i
+{
+    cursor: pointer;
+}
+
+.songItemContainer
+{
+    margin-top: 74px;
+}
+
+.songInfo
+{
+    position: absolute;
+    left: 24vw;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Quintessential', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Supermercado One', cursive;
+    font-family: 'Ubuntu', sans-serif;
+}
+.songInfo img
+{
+    opacity: 0;
+    transition:opacity 400ms ease-in;
+}
